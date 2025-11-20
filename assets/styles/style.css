@@ -98,8 +98,9 @@ footer .container-main .list-contact i:hover {
 .container-start .container-article .container-info .job {
     font-size: 15px;
     color: white;
-    padding: 5px 10px;
-    background-color: #262626;
+    padding: 2.5px 10px;
+    background-color: black;
+    border-radius: 4px;
 }
 
 .container-start .container-article .container-info .description {
@@ -117,7 +118,7 @@ footer .container-main .list-contact i:hover {
     color: white;
     font-size: 18px;
     border-radius: 6px;
-    background-color: #262626;
+    background-color: black;
 }
 
 .container-start .container-article .container-bottom .description {
@@ -212,7 +213,7 @@ footer .container-main .list-contact i:hover {
     padding: 20px 40px;
     border: none;
     color: white;
-    background-color: #262626;
+    background-color: black;
 }
 
 .container-services .container-timeline {
@@ -280,7 +281,7 @@ footer .container-main .list-contact i:hover {
     font-size: 18px;
     width: 50px;
     height: 50px;
-    background-color: #262626;
+    background-color: black;
     color: white;
     display: flex;
     align-items: center;
@@ -452,5 +453,9 @@ footer .container-main .list-contact i {
 @media (max-width: 500px) {
     .container-start .container-article .separator {
         width: 100px;
+    }
+
+    .container-start .container-article .container-info .description {
+        font-size: 16px;
     }
 }
